@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estructura Grid Corregida</title>
+    <style>
+        header{
+            background-color: antiquewhite;
+            grid-area: uno;
+        }
+        #logo{
+            background-color: blue;
+            grid-area: dos;
+        }
+        #inicio{
+            background-color: wheat;
+            grid-area: tres;
+        }
+        #pro{
+            background-color: green;
+            grid-area: cua;
+        }
+        #misi{
+            background-color: rebeccapurple;
+            grid-area: cin;
+        }
+        #vision{
+            background-color: red;
+            grid-area: seis;
+        }
+        #acti{
+            background-color: brown;
+            grid-area: siete;
+        }
+        #resu{
+            background-color: orange;
+            grid-area: ocho;
+        }
+        #intro{
+            background-color: greenyellow;
+            grid-area: nueve;
+        }
+        #problem{
+            background-color: blueviolet;
+            grid-area: diez;
+        }
+        #problematica{
+            background-color: purple;
+            grid-area: once;
+        }
+        #obj-general{
+            background-color: pink;
+            grid-area: doce;
+        }
+        #obj-especificos{
+            background-color: cyan;
+            grid-area: trece;
+        }
+        #normas{
+            background-color: gold;
+            grid-area: catorce;
+        }
+        #las-normas{
+            background-color: coral;
+            grid-area: quince;
+        }
+        #img{
+            background-color: crimson;
+            grid-area: dieciseis;
+        }
+        #mision{
+            background-color: darkcyan;
+            grid-area: diecisiete;
+        }
+        #misi-text{
+            background-color: darkkhaki;
+            grid-area: dieciocho;
+        }
+        #img-misi{
+            background-color: darkorange;
+            grid-area: diecinueve;
+        }
+        #visi{
+            background-color: darksalmon;
+            grid-area: veinte;
+        }
+        #visi-text{
+            background-color: darkseagreen;
+            grid-area: veintiuno;
+        }
+        #img-visi{
+            background-color: darkturquoise;
+            grid-area: veintidos;
+        }
+        #actividades{
+            background-color: deeppink;
+            grid-area: veintitres;
+        }
+        #talle{
+            background-color: deepskyblue;
+            grid-area: veinticuatro;
+        }
+        #img-talle{
+            background-color: dodgerblue;
+            grid-area: veinticinco;
+        }
+        #info{
+            background-color: firebrick;
+            grid-area: veintiseis;
+        }
+        #img-info{
+            background-color: forestgreen;
+            grid-area: veintisiete;
+        }
+        #encu{
+            background-color: fuchsia;
+            grid-area: veintiocho;
+        }
+        #img-encu{
+            background-color: green;
+            grid-area: veintinueve;
+        }
+        #resultados{
+            background-color: hotpink;
+            grid-area: treinta;
+        }
+        #talle-rea{
+            background-color: indianred;
+            grid-area: treintayuno;
+        }
+        #docen{
+            background-color: khaki;
+            grid-area: treintaydos;
+        }
+        #info-rea{
+            background-color: lavender;
+            grid-area: treintaytres;
+        }
+        #exp{
+            background-color: lawngreen;
+            grid-area: treintaycuatro;
+        }
+        #mensajito{
+            background-color: lightblue;
+            grid-area: treintaycinco;
+        }
+        #explorar{
+            background-color: lightcoral;
+            grid-area: treintayseis;
+        }
+        #inf{
+            background-color: lightgreen;
+            grid-area: treintaysiete;
+        }
+        #inf-insti{
+            background-color: lightsalmon;
+            grid-area: treintayocho;
+        }
+        #lo-ultimo{
+            background-color: lightseagreen;
+            grid-area: treintaynueve;
+        }
+
+        body{
+            display: grid;
+            grid-template-rows: 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px;
+            grid-template-columns: 14% 14% 12% 12% 12% 12% 12% 12%;
+            grid-template-areas:
+            "dos uno tres cua cin seis siete ocho"
+            "nueve nueve nueve nueve nueve nueve nueve nueve"
+            "diez diez once once once once once once"
+            "doce doce doce doce trece trece trece trece"
+            "catorce catorce catorce catorce catorce dieciseis dieciseis dieciseis"
+            "quince quince quince quince quince dieciseis dieciseis dieciseis"
+            "diecisiete diecisiete dieciocho dieciocho dieciocho diecinueve diecinueve diecinueve"
+            "veinte veinte veintiuno veintiuno veintiuno veintidos veintidos veintidos"
+            "veintitres veinticuatro veinticuatro veinticinco veintiseis veintiseis veintisiete veintisiete"
+            "veintitres veintiocho veintiocho veintiocho veintinueve veintinueve veintinueve veintinueve"
+            "treinta treinta treinta treinta treinta treinta treinta treinta"
+            "treintayuno treintayuno treintaydos treintaydos treintaytres treintaytres treintaycuatro treintaycuatro"
+            "treintaycinco treintaycinco treintaycinco treintaycinco treintaycinco treintaycinco treintaycinco treintaycinco"
+            "treintayseis treintayseis treintaysiete treintaysiete treintaysiete treintayocho treintayocho treintayocho"
+            "treintaynueve treintaynueve treintaynueve treintaynueve treintaynueve treintaynueve treintaynueve treintaynueve";
+            gap: 15px;
+        }
+    </style>
+</head>
+<body>
+    <body>
+    <header>cabecera</header>
+    <aside id="logo">imagen logo del cole</aside>
+    <nav id="inicio">inicio</nav>
+    <nav id="pro">nuestra proyecto</nav>
+    <nav id="misi">mision</nav>
+    <nav id="vision">vision</nav>
+    <nav id="acti">actividades</nav>
+    <nav id="resu">resultados</nav>
+    <article id="intro">intro</article>
+    <section id="problem">problematica</section>
+    <article id="problematica">texto problematica</article>
+    <section id="obj-general">objetivo general</section>
+    <section id="obj-especificos">objetivos especificos</section>
+    <section id="normas">normas de convivencia</section>
+    <article id="las-normas">lista de normas</article>
+    <aside id="img">imagen</aside>
+    <section id="mision">mision xd</section>
+    <article id="misi-text">mision texto</article>
+    <aside id="img-misi">imagen</aside>
+    <section id="visi">vision xd</section>
+    <article id="visi-text">vision texto</article>
+    <aside id="img-visi">imagen</aside>
+    <section id="actividades">actividades verti</section>
+    <article id="talle">talleres</article>
+    <aside id="img-talle">imagen</aside>
+    <article id="info">infografias</article>
+    <aside id="img-info">imagen</aside>
+    <article id="encu">encuestas y entrevistas</article>
+    <aside id="img-encu">imagen</aside>
+    <section id="resultados">resultados</section>
+    <article id="talle-rea">talle realizados</article>
+    <article id="docen">docentes participantes</article>
+    <article id="info-rea">infografias</article>
+    <article id="exp">exp</article>
+    <article id="mensajito">mensajito xd</article>
+    <footer id="explorar">explorar</footer>
+    <footer id="inf">informacion</footer>
+    <footer id="inf-insti">informacion insti</footer>
+    <footer id="lo-ultimo">cole fecha y otro</footer>
+</body>
+</body>
+</html>
